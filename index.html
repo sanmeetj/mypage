@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Sanmeet Singh | Senior Software Engineer and Product Management Leader in E-Commerce and Distributed Systems. Helping scale technology at millions-in-impact levels." />
+  <title>Sanmeet Singh | Engineering Leader at Scale</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <a href="#hero" class="logo">Sanmeet Singh</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="assets/resume.pdf" target="_blank" class="resume-btn">Download Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <img src="assets/profile.jpeg" alt="Sanmeet Singh Headshot" class="hero-photo" />
+    <div>
+      <h1>Sanmeet Singh</h1>
+      <h2>Senior Software Engineer & Product Management Leader</h2>
+      <p class="location">Sunnyvale, California</p>
+      <p>
+        <strong>Engineering Leader Delivering at Scale.</strong><br>
+        Helping e-commerce giants deliver millions of experiences every week.
+      </p>
+      <div class="hero-cta">
+        <a href="assets/resume.pdf" target="_blank" class="btn-primary">Download Resume</a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
+        <a href="https://www.linkedin.com/in/sanmeetiit/" target="_blank" title="LinkedIn">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="social-icon"/>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I thrive at the intersection of technology and business impact—building systems that move at the speed and scale of modern commerce. My passion lies in architecting solutions, leading teams, and connecting product vision to engineering reality. Whether it’s designing microservices, driving product strategy, or recovering revenue—my focus is always on outcomes and scale.
+    </p>
+  </section>
+
+  <!-- Skills & Expertise -->
+  <section id="skills" class="section">
+    <h2>Skills & Expertise</h2>
+    <div class="skills-grid">
+      <div>
+        <h3>Technical</h3>
+        <ul class="skills-list">
+          <li>Java</li>
+          <li>Microservices</li>
+          <li>Kafka</li>
+          <li>API Design</li>
+          <li>System Design</li>
+          <li>SQL</li>
+          <li>Data Analytics</li>
+          <li>Database Systems</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Leadership & Product</h3>
+        <ul class="skills-list">
+          <li>Product Strategy</li>
+          <li>Team Leadership</li>
+          <li>Cross-functional Collaboration</li>
+          <li>Problem Solving</li>
+          <li>Agile Development</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="experience-cards">
+      <div class="exp-card">
+        <h3>Senior Software Engineer <span>@ Walmart Global Tech</span></h3>
+        <h4>2021–Present</h4>
+        <ul>
+          <li>Plan & execute millions of last mile deliveries weekly.</li>
+          <li>Architected new Trip Execution microservice out of monolith.</li>
+          <li>Migrated 30+ external systems to new APIs.</li>
+          <li>Built dashboards driving revenue recovery from canceled orders.</li>
+        </ul>
+      </div>
+      <div class="exp-card">
+        <h3>Senior Product Manager <span>@ Walmart</span></h3>
+        <h4>2018–2021</h4>
+        <ul>
+          <li>Led Curbside Pickup platform for 5,000+ stores.</li>
+          <li>Shaped product strategy and drove cross-team execution.</li>
+        </ul>
+      </div>
+      <!-- Add more positions as needed -->
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Trip Execution Microservice</h3>
+        <p>Extracted and scaled core delivery logic, enabling peer-to-peer models for next-gen logistics.</p>
+      </div>
+      <div class="project-card">
+        <h3>Dispatch Tools & Services Platform</h3>
+        <p>Unified dashboard for store, ops, and support staff—cutting exception handling times.</p>
+      </div>
+      <div class="project-card">
+        <h3>Curbside Pickup Platform</h3>
+        <p>Product leadership for the single platform powering all US stores’ pickup & delivery.</p>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section id="education" class="section">
+    <h2>Education & Certifications</h2>
+    <h3>University of Michigan</h3>
+    <p>[Your Degree, Graduation Year, Notable Coursework]</p>
+    <h3>Certifications</h3>
+    <ul>
+      <li>[Add relevant certifications here]</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form id="contact-form" name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
+      <label>
+        Name
+        <input type="text" name="name" required />
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required />
+      </label>
+      <label>
+        Message
+        <textarea name="message" required></textarea>
+      </label>
+      <button type="submit" class="btn-primary">Send</button>
+    </form>
+    <div class="contact-links">
+      <a href="mailto:sanmeetj@umich.edu">sanmeetj@umich.edu</a>
+      <span>·</span>
+      <a href="https://www.linkedin.com/in/sanmeetiit/" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- Optional: Analytics script goes here -->
+
+  <script src="script.js"></script>
+</body>
+</html>
